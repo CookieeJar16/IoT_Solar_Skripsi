@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "793959037815",
+    "firebase_url": "https://solariot-e438b-default-rtdb.firebaseio.com",
+    "project_id": "solariot-e438b",
+    "storage_bucket": "solariot-e438b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793959037815:android:fb3c3333cb83bb4ae5ff72",
+        "android_client_info": {
+          "package_name": "com.example.solariot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793959037815-9l8l56sm2cauuo7s2e96vrhl07u60rrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFc9pGGFYor3a1eDdBk419LtjtAjqMRzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793959037815-9l8l56sm2cauuo7s2e96vrhl07u60rrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgound"
+    tools:context=".MainActivity">
+    
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/bg_main"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toBottomOf="@id/view_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/bg_main"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toBottomOf="@id/view_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    
+    <View
+        android:id="@+id/view_4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_main"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="180dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PANEL SURYA"
+        android:layout_margin="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:elevation="10dp"
+        app:layout_constraintStart_toStartOf="@id/view_1"
+        app:layout_constraintTop_toTopOf="@id/view_1"/>
+
+    <TextView
+        android:id="@+id/title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BATERAI"
+        android:elevation="10dp"
+        android:layout_margin="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/view_2"
+        app:layout_constraintStart_toStartOf="@id/view_2"/>
+
+    <TextView
+        android:id="@+id/title_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        android:elevation="10dp"
+        android:layout_margin="15dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/view_4"
+        app:layout_constraintStart_toStartOf="@id/view_4"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="status text"
+        android:textColor="@color/black"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/title_3"
+        app:layout_constraintStart_toStartOf="@id/view_4"/>
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="45dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="8"
+        android:shadowDy="8"
+        android:shadowRadius="1.6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_vol_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tegangan"
+        android:textSize="15sp"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/val_1"
+        app:layout_constraintStart_toStartOf="@id/val_1"
+        app:layout_constraintEnd_toEndOf="@id/val_1"/>
+
+    <TextView
+        android:id="@+id/tv_vol_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tegangan"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@id/val_2"
+        app:layout_constraintEnd_toEndOf="@id/val_2"
+        app:layout_constraintTop_toBottomOf="@id/val_2"/>
+
+    <TextView
+        android:id="@+id/tv_vol_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Arus"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/val_3"
+        app:layout_constraintStart_toStartOf="@id/val_3"
+        app:layout_constraintEnd_toEndOf="@id/val_3"/>
+
+    <TextView
+        android:id="@+id/tv_vol_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daya"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/val_5"
+        app:layout_constraintStart_toStartOf="@id/val_5"
+        app:layout_constraintEnd_toEndOf="@id/val_5"/>
+
+    <TextView
+        android:id="@+id/tv_vol_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kapasitas"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/val_6"
+        app:layout_constraintStart_toStartOf="@id/val_6"
+        app:layout_constraintEnd_toEndOf="@id/val_6"/>
+    
+    <TextView
+        android:id="@+id/val_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/img_5"
+        app:layout_constraintStart_toStartOf="@id/img_5"
+        app:layout_constraintEnd_toEndOf="@id/img_5"/>
+
+    <TextView
+        android:id="@+id/val_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/img_1"
+        app:layout_constraintStart_toStartOf="@id/img_1"
+        app:layout_constraintEnd_toEndOf="@id/img_1"/>
+
+    <TextView
+        android:id="@+id/val_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/img_2"
+        app:layout_constraintStart_toStartOf="@id/img_2"
+        app:layout_constraintEnd_toEndOf="@id/img_2"/>
+
+    <TextView
+        android:id="@+id/val_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/img_4"
+        app:layout_constraintStart_toStartOf="@id/img_4"
+        app:layout_constraintEnd_toEndOf="@id/img_4"/>
+    
+    <TextView
+        android:id="@+id/val_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:elevation="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/img_6"
+        app:layout_constraintStart_toStartOf="@id/img_6"
+        app:layout_constraintEnd_toEndOf="@id/img_6"/>
+
+    <ImageView
+        android:id="@+id/img_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/battery_103543"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="50dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toTopOf="@id/view_1"
+        app:layout_constraintStart_toStartOf="@id/view_1"/>
+
+    <ImageView
+        android:id="@+id/img_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/preferencessystempower_93602"
+        android:layout_marginTop="50dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toTopOf="@id/view_1"
+        app:layout_constraintStart_toEndOf="@id/img_1"
+        app:layout_constraintEnd_toStartOf="@id/img_4"/>
+
+    <ImageView
+        android:id="@+id/img_4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/solar_panel_icon_156956"
+        android:elevation="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        app:layout_constraintTop_toTopOf="@id/view_1"
+        app:layout_constraintEnd_toEndOf="@id/view_1"/>
+
+    <ImageView
+        android:id="@+id/img_5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/eco_accumulator_battery_ecology_energy_icon_191962"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toTopOf="@id/view_2"
+        app:layout_constraintStart_toStartOf="@id/view_2"/>
+
+    <ImageView
+        android:id="@+id/img_6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="50dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toTopOf="@id/view_2"
+        app:layout_constraintEnd_toEndOf="@id/view_2"/>
+
+    <ImageView
+        android:id="@+id/img_7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:elevation="10dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintTop_toTopOf="@id/view_4"
+        app:layout_constraintBottom_toBottomOf="@id/view_4"
+        app:layout_constraintEnd_toEndOf="@id/view_4"/>
+
+    
+</androidx.constraintlayout.widget.ConstraintLayout>

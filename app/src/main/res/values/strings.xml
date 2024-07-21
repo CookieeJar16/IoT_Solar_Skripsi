@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SolarIoT</string>
+    <string name="notif_text_on">Panel surya terhubung</string>
+    <string name="notif_text_off">Panel surya tidak terhubung</string>
+</resources>
