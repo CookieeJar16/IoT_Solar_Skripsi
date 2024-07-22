@@ -15,7 +15,7 @@ WeMos D1 R32
 
 ![Wemos](https://github.com/user-attachments/assets/c96c796e-83b8-4b17-951c-27c0a0e65678)
 
-## App SolarIoT
+## SolarIoT App
 
 ![App](https://github.com/user-attachments/assets/ea46d771-20f2-4064-b446-d42eab7b07d9)
 ![notif](https://github.com/user-attachments/assets/6c5f7cab-410e-4354-8091-04fba6b5c7b2)
