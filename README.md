@@ -11,7 +11,7 @@
 ![Skematik](https://github.com/user-attachments/assets/5ea62821-1325-47bd-8f41-b8b7ec20e649)
 
 ## Dokumentasi
-
+WeMos D1 R32
 ![Wemos](https://github.com/user-attachments/assets/c96c796e-83b8-4b17-951c-27c0a0e65678)
 
 ## App SolarIoT
