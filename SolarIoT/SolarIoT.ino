@@ -9,14 +9,14 @@
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "Home"
-#define WIFI_PASSWORD "qwerty16"
+#define WIFI_SSID "..."
+#define WIFI_PASSWORD "..."
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyBFc9pGGFYor3a1eDdBk419LtjtAjqMRzk"
+#define API_KEY "..."
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://solariot-e438b-default-rtdb.firebaseio.com/" 
+#define DATABASE_URL "..." 
 
 //Define Firebase Data object
 FirebaseData fbdo;
